@@ -1,0 +1,6 @@
+.carts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1Fr;
+    height: calc(100vh - 280px);
+    overflow-y: auto;
+}

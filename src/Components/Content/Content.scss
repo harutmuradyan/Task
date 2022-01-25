@@ -1,0 +1,46 @@
+.content {
+
+    background:cornsilk;
+    border-radius:10px;
+    width: calc(100vw - 300px);
+
+    .content__navbar {
+        ul {
+            display: grid;
+            
+            grid-template-columns: 1fr 1fr;
+            li {
+                width: 80%;
+                display: flex;
+                justify-content: center;
+                list-style: none;
+                margin: 0 auto;
+            }
+        }
+    }
+    .styledInput {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background:white;
+        border:solid 1px black;
+        border-radius: 10px;
+        width: 130px;
+        height: 2.5rem;
+        cursor: pointer;
+        margin:10px 10px 10px 10px;
+        font-size: 1.5rem;
+    }
+
+    .btn {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background:coral;
+        border:solid 1px black;
+        border-radius: 10px;
+        width: 130px;
+        height: 2.5rem;
+        color: white;
+        cursor: pointer;
+        font-size: 1.5rem;
+    }
+}

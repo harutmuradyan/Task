@@ -1,0 +1,26 @@
+.cart {
+    margin: 10px 10px 10px 10px;
+    height: 10rem;
+    border:solid 1px black;
+    border-radius:15px;
+    
+
+    > i {
+        display: flex;
+        justify-content: end;
+        margin-right: 10px;
+        margin-top: 10px;
+        font-size: 1.5rem;
+        color: red;
+        cursor:pointer;
+    }
+
+    > h4 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    > p {
+        text-align: center;
+    }
+}
